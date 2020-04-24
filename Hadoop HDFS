@@ -1,0 +1,5 @@
+Copy file to HDFS. Run hadoop fs –copyFromLocal words.txt to copy the text file to HDFS.
+Verify file was copied to HDFS. Run hadoop fs –ls to verify the file was copied to HDFS.
+Copy a file within HDFS. You can make a copy of a file in HDFS. Run hadoop fs -cp words.txt words2.txt to make a copy of words.txt called words2.txt
+Copy a file from HDFS. We can also copy a file from HDFS to the local file system. Run hadoop fs -copyToLocal words2.txt . to copy words2.txt to the local directory.
+Delete a file in HDFS. Let's the delete words2.txt in HDFS. Run hadoop fs -rm words2.txt
