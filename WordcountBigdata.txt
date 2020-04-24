@@ -1,0 +1,15 @@
+See example MapReduce programs. Hadoop comes with several example MapReduce applications. You can see a list of them by running hadoop jar /usr/jars/hadoop-examples.jar. We are interested in running WordCount.
+
+Verify input file exists. In the previous Reading, we downloaded the complete works of Shakespeare and copied them into HDFS. Let's make sure this file is still in HDFS so we can run WordCount on it. Run hadoop fs -ls
+
+See WordCount command line arguments. We can learn how to run WordCount by examining its command-line arguments. Run hadoop jar /usr/jars/hadoop-examples.jar wordcount.
+
+Run WordCount. Run WordCount for words.txt: hadoop jar /usr/jars/hadoop-examples.jar wordcount words.txt out
+
+See WordCount output directory. Once WordCount is finished, let's verify the output was created. First, let's see that the output directory, out, was created in HDFS by running hadoop fs –ls
+
+Look inside output directory. The directory created by WordCount contains several files. Look inside the directory by running hadoop –fs ls out
+
+Copy WordCount results to local file system. Copy part-r-00000 to the local file system by running hadoop fs –copyToLocal out/part-r-00000 local.txt
+
+View the WordCount results. View the contents of the results: more local.txt
