@@ -1,0 +1,15 @@
+Open a terminal shell. Open a terminal shell by clicking on the square black box on the top left of the screen.
+Run cd Downloads/big-data-2/csv to change into the directory containing the csv file. (This was downloaded in Week 1 https://www.coursera.org/learn/big-data-management/supplement/YVDPj/instructions-for-downloading-hands-on-datasets)
+Step 2. Look at CSV file. The CSV file contains census data for the United States. Run ls to see the name of the CSV file.
+Run more census.csv to look at the contents of the CSV file.
+Step 3. Open spreadsheet application. Run oocalc to start the spreadsheet application.
+Step 4. Import CSV to spreadsheet. Let's import the CSV file to the spreadsheet by clicking on File:
+Next, click Open:
+Next, click Downloads in the Places pane:
+Next, double-click big-data-2 in the file pane:
+Next, double-click csv:
+Next, double-click census.csv:
+In the Text Import dialog, click OK:
+The CSV data is now loaded into the spreadsheet.
+Step 6. Create chart. Let's create a chart of the estimated population of the state of Alabama. Row 2 contains the data for Alabama. Select cells in row 2 and columns J through O to get the estimated population for 2010 through 2015.
+Click Finish to display the chart:
